@@ -1,0 +1,4 @@
+com\example\model\Product.class
+com\example\service\ProductService.class
+com\example\web\ProductSearchController.class
+com\example\dao\ProductDao.class
