@@ -31,7 +31,7 @@ public class ProductSearchController extends HttpServlet {
             req.setAttribute("products", products);
 
             // 跳轉結果頁面
-            req.getRequestDispatcher("/WEB-INF/views/results.jsp").forward(req, resp);
+            req.getRequestDispatcher("/WEB-INF/views/index.jsp").forward(req, resp);
         } catch (Exception e) {
             throw new ServletException("Search failed", e);
         }
